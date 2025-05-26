@@ -1,3 +1,7 @@
+html, body{
+background-color: #f1d6c1;
+}
+
 h1 {
 font-size: 50px;
 text-align: center;
@@ -25,4 +29,39 @@ button{
     color: white;
 }
 }
+
+.divul {
+display: flex;
+justify-content: center;
+
+ul{
+list-style:none;
+}
+}
+
+section{
+display: flex;
+text-align: center;
+flex-direction: column;
+
+img{
+border-radius: 5px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

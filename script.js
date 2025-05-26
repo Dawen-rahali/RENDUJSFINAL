@@ -18,9 +18,12 @@ function Contenu() {
 
              data.promessesClients.forEach(element => {
              div.innerHTML+= `
+                <div class="divul">
                 <ul>
+                
                     <li>${element}</li>
                 </ul>
+                </div>
                   `              
              })
 
