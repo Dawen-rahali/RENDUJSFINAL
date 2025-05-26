@@ -1,5 +1,5 @@
 html, body{
-background-color: #f1d6c1;
+background-color: #a27056;
 }
 
 h1 {
@@ -43,25 +43,14 @@ section{
 display: flex;
 text-align: center;
 flex-direction: column;
-
+background-color: #f4dfd4;
+padding: 60px 20px;
+font-family: 'georgia';
+h3{
+font-size: 20px;
+}
 img{
 border-radius: 5px;
+max-width: 900px;
 }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
