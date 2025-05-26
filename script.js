@@ -6,8 +6,6 @@ function Contenu() {
              console.log(data);
 
           const div = document.getElementById("premierediv");
-
-
           div.innerHTML = `
           <h1>${data.entreprise}</h1>
           <p id="proposition">${data.propositionDeValeur}</p>
@@ -16,16 +14,19 @@ function Contenu() {
           </div>
             `;
 
+            const divcard = document.getElementById('contenaire');
+            let cardsHTML='';
              data.promessesClients.forEach(element => {
-             div.innerHTML+= `
-                <div class="divul">
-                <ul>
-                
-                    <li>${element}</li>
-                </ul>
+             cardsHTML+= `
+                <div class="cards">
+                  <ul>
+                      <li>${element}</li>
+                  </ul>
                 </div>
-                  `              
-             })
+                  `;              
+             });
+
+             divcard.innerHTML = cardsHTML;
 
           const section = document.getElementById("masection");
             data.realisations.forEach(element => {
